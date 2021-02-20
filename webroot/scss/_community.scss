@@ -16,7 +16,7 @@
 }
 .community_first_button {
     padding: 0.8rem;
-    width: 200px;
+    max-width: 200px;
     color:  #fff;
     border: 1px solid hsl(322, 100%, 66%);
     border-radius: 50px;
@@ -30,8 +30,44 @@
     margin: 2rem;
 }
 .community_second_inner img {
-    width: 100%;   
+    width: 100%; 
+}
+
+
+.community_third_inner {
+    text-align: initial;
+    padding: 2rem;
+    display: flex;
+    flex-direction:column;
+    gap: 3rem;
+}
+.num {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-size: 32px;
+    color: hsl(192, 100%, 9%);
+    font-weight: 700;
+}
+.text {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-size: 18px;
+    color: hsla(192, 100%, 9%, 0.5);
+}
+.text_center {
+    padding-inline-start: 1rem;
 }
 .icon {
     width: 30px;
+}
+
+@media (min-width: 600px) {
+    .community_first_button {
+        max-width: 200px;
+    }
+    .community_third_inner {
+       flex-direction: row;
+        gap: 4rem;
+        text-align: center;
+    }
 }

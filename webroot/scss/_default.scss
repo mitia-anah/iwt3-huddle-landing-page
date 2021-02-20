@@ -12,4 +12,12 @@ $font-headings: 'Poppins', ;
 body {
     font-family: $font-main;
     font-weight: 400;
+    margin: 0;
+}
+
+ul {
+    padding-inline-start: 0;
+}
+li {
+    list-style: 0;
 }

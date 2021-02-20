@@ -1,0 +1,15 @@
+@import url('https://fonts.google.com/specimen/Poppins');
+@import url('https://fonts.google.com/specimen/Open+Sans');
+
+//store it in variable first
+$font-main: 'Open Sans',"Segoe UI", Tahoma, sans-serif, sans-serif;
+$font-headings: 'Poppins', ;
+
+.community_heading{
+   font-family: $font-headings;
+   font-weight: 700;
+}
+body {
+    font-family: $font-main;
+    font-weight: 400;
+}

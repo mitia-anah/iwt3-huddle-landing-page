@@ -1,0 +1,37 @@
+.community {
+    padding-top: 100px;
+    text-align: center;
+}
+.community_first_inner{
+    padding: 2rem;
+}
+.community_first_heading {
+    color: hsl(192, 100%, 9%);
+    font-size: 24px;
+    line-height: 34px;
+}
+.community_first_text {
+    color: hsl(192, 100%, 9%);
+    padding-bottom: 2rem;
+}
+.community_first_button {
+    padding: 0.8rem;
+    width: 200px;
+    color:  #fff;
+    border: 1px solid hsl(322, 100%, 66%);
+    border-radius: 50px;
+    background-color: hsl(322, 100%, 66%);
+    box-shadow: 4px 4px 4px lightgrey;
+    width: 100%;
+}
+
+
+.community_second_inner {
+    margin: 2rem;
+}
+.community_second_inner img {
+    width: 100%;   
+}
+.icon {
+    width: 30px;
+}

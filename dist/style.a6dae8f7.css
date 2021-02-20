@@ -1,0 +1,80 @@
+@import url("https://fonts.google.com/specimen/Poppins");
+@import url("https://fonts.google.com/specimen/Open+Sans");
+.community_heading {
+  font-family: "Poppins";
+  font-weight: 700;
+}
+
+body {
+  font-family: "Open Sans", "Segoe UI", Tahoma, sans-serif, sans-serif;
+  font-weight: 400;
+}
+
+.masthead_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  padding: 1rem;
+}
+
+#masthead_logo > img {
+  width: 100%;
+  max-width: 150px;
+}
+
+.masthead_button {
+  padding: 0.5rem;
+  color: #ff52bf;
+  border: 1px solid #ff52bf;
+  border-radius: 50px;
+  width: 100px;
+  background-color: white;
+  box-shadow: 1px 1px 1px 1px rgba(255, 143, 216, 0.5);
+}
+
+.community {
+  padding-top: 100px;
+  text-align: center;
+}
+
+.community_first_inner {
+  padding: 2rem;
+}
+
+.community_first_heading {
+  color: #00252e;
+  font-size: 24px;
+  line-height: 34px;
+}
+
+.community_first_text {
+  color: #00252e;
+  padding-bottom: 2rem;
+}
+
+.community_first_button {
+  padding: 0.8rem;
+  width: 200px;
+  color: #fff;
+  border: 1px solid #ff52bf;
+  border-radius: 50px;
+  background-color: #ff52bf;
+  box-shadow: 4px 4px 4px lightgrey;
+  width: 100%;
+}
+
+.community_second_inner {
+  margin: 2rem;
+}
+
+.community_second_inner img {
+  width: 100%;
+}
+
+.icon {
+  width: 30px;
+}
+
+/*# sourceMappingURL=/style.a6dae8f7.css.map */

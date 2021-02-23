@@ -124,24 +124,63 @@ li {
     text-align: center;
   }
 }
-.group_cards {
+.groups {
+  position: relative;
+  width: 101%;
   background-image: url("/bg-section-top-mobile-1.73cd2560.svg");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: contain;
+  padding-top: 28%;
+}
+
+.list1::after {
+  content: "";
+  display: block;
+  background-image: url("/bg-section-bottom-mobile-1.ac148f05.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100px;
+  width: 100%;
 }
 
 .image_list {
-  padding: 2rem;
   text-align: center;
 }
 
-.list1 {
+.list1_inner {
   background-color: #f5faff;
+  padding: 2rem;
 }
 
 .group_image {
   width: 100%;
   padding-top: 100px;
+}
+
+.question {
+  text-align: center;
+  padding: 2rem;
+}
+
+.question_text {
+  color: #00252e;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+footer {
+  position: relative;
+  width: 101%;
+  padding-top: 13%;
+  background-image: url(/bg-footer-top-mobile.e81a95a1.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+footer p {
+  margin: 0;
+}
+footer .footer_inner {
+  background-color: #00252e;
 }
 
 /*# sourceMappingURL=/style.a6dae8f7.css.map */

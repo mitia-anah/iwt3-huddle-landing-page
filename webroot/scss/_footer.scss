@@ -1,0 +1,16 @@
+footer {
+    position: relative;
+    width: 101%;
+    padding-top: 13%;
+    background-image: url(../images/bg-footer-top-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    p {
+        margin: 0;
+    }
+     
+    .footer_inner {
+        background-color: hsl(192, 100%, 9%);
+    }
+}

@@ -8,6 +8,10 @@
     padding-top: 28%; 
 }
 
+.group_image {
+    
+}
+
 .list1::after {
     content: "";
     display: block;
@@ -18,24 +22,39 @@
     width: 100%;
 }
 
-.group_cards {
-    // ackground-color: hsl(207, 100%, 98%);
+.list3::before {
+    content: '';
+    display: block;
+    background-image: url(../images/bg-section-top-mobile-2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding-top: 26%;
+}
+
+.list3 {
+    padding-top: 100px;
+}
+.list3::after {
+    content: '';
+    display: block;
+    background-image: url(../images/bg-section-bottom-mobile-2.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    padding-bottom: 27%;
 
 }
-.image_list {
-    
+.image_list {    
     text-align: center;
 }
-.list1_inner {
+.list1_inner, .list3_inner {
     background-color: hsl(207, 100%, 98%);
     padding: 2rem;
-    // background-image: url('../images/bg-section-top-mobile-1.svg');
-    // background-repeat: no-repeat;
-    // background-size: 100%;
 }
 .group_image {
     width: 100%;
-    padding-top: 100px;
+    // padding-top: 100px;
 }
 
 .question {

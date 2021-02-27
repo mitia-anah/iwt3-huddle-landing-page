@@ -26,6 +26,7 @@ li {
   justify-content: space-between;
   background-color: white;
   padding: 1rem;
+  flex-wrap: wrap;
 }
 
 #masthead_logo > img {
@@ -143,18 +144,41 @@ li {
   width: 100%;
 }
 
+.list3::before {
+  content: "";
+  display: block;
+  background-image: url(/bg-section-top-mobile-2.4b302efd.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding-top: 26%;
+}
+
+.list3 {
+  padding-top: 100px;
+}
+
+.list3::after {
+  content: "";
+  display: block;
+  background-image: url(/bg-section-bottom-mobile-2.e7b3747d.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  padding-bottom: 27%;
+}
+
 .image_list {
   text-align: center;
 }
 
-.list1_inner {
+.list1_inner, .list3_inner {
   background-color: #f5faff;
   padding: 2rem;
 }
 
 .group_image {
   width: 100%;
-  padding-top: 100px;
 }
 
 .question {

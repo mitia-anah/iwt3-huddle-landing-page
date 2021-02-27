@@ -3,6 +3,7 @@
     @include flex-element();
     background-color:  hsl(0, 0%, 100%);
     padding: 1rem;
+    flex-wrap: wrap;
 } 
 
 #masthead_logo> img{
